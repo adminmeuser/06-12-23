@@ -1,0 +1,31 @@
+input { 
+    height: 25px;
+    margin: 20px;
+}
+
+div {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+button { 
+    background-color: red;
+    cursor: pointer;
+    border: solid red;
+    width: 100px;
+    height: 25px;
+}
+button:hover {
+    background-color: rgb(224, 75, 75);
+    border: solid rgb(224, 75, 75);
+
+}
+.btn {
+   
+    background-color:  rgb(30, 224, 30) ;
+    border: solid rgb(30, 224, 30);
+}
+.btn:hover {
+    background-color:  rgb(111, 248, 111) ;
+    border: solid rgb(111, 248, 111);
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./login.component.scss">
+    </head>
+    <body>
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" id="username" [(ngModel)]="username" /><br>
+          
+            <label for="password">Password : </label>
+            <input type="password" id="password" [(ngModel)]="password" /><br>
+          
+            <label for="isAdmin">Login as Admin : </label>
+            <input type="checkbox" id="isAdmin" [(ngModel)]="isAdmin" /><br><br>
+          
+            <button (click)="login(username, password, isAdmin)" class="btn">Login</button>
+            <button (click)="cancel()">Cancel</button>
+          </div>
+    </body>
+</html>
